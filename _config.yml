@@ -1,28 +1,40 @@
-name: muthking
-favicon: null
-layout_spectrum: 0.08422479801811278
-typography_spectrum: 0.08467304217629135
 cta:
-  domain: null
   bucket: null
   version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+  domain: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
-  brandStrength: 0.21704903920181096
-  lightness: 0.014093013247475028
-  saturation: 0.414935368578881
-  rhythmicContrast: 0.060953771928325295
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.05319149
+  brandStrength: 0.9829787
+  lightness: 0.7021276
+  brandColors:
+    - '#E1F0FB'
+    - '#01020D'
+    - '#789954'
+    - '#425330'
+    - '#C56644'
+  rhythmicContrast: 0.2702128
+typography_spectrum: 0.2042553
+layout_spectrum: 1
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+favicon: null
+name: muthking
